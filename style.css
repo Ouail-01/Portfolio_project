@@ -1,108 +1,107 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    background-color: #EBF0EE;
-    background-image: url(img/header-illsutration-mobile.png);
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    font-family: 'inter';
+  background-color: #ebf0ee;
+  background-image: url(img/header-illsutration-mobile.png);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: "Inter", sans-serif;
 }
 
 /* toolbar section */
 
 .tool-bar {
-    display: flex;
-    width: auto;
-    height: 28px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
+  display: flex;
+  width: auto;
+  height: 28px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
 }
 
 .tool-bar a {
-    font-style: 20px;
-    font-weight: 600;
-    text-decoration: none;
-    color: #172B4D;
-    cursor: pointer;
+  font-style: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #172b4d;
+  cursor: pointer;
 }
 
-.tool-bar button{
-    border: none;
-    background-color: transparent;
+.tool-bar button {
+  border: none;
+  background-color: transparent;
 }
 
-/* end toolbar section*/
+/* end toolbar section */
 
 /* headline section */
 
 .intro {
-    height: 192px;
-    width: 327px;
-    margin: 74px auto 58px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
+  height: 192px;
+  width: 327px;
+  margin: 74px auto 58px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.intro h1{
-    color: #172B4D;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 52px;
+.intro h1 {
+  color: #172b4d;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
 }
 
 .intro h2 {
-    color: #36B37E;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 52px;
+  color: #36b37e;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
 }
 
 .supporting-text {
-    width: 327px;
-    height: 192px;
-    margin: 0 auto;
-    font-size: 20px;
-    line-height: 28px;
-    font-weight: 400;
-    display: flex;
-    align-items: center;
-    text-align: center;
+  width: 327px;
+  height: 192px;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 .supporting-text p {
-    color: #172B4D;
+  color: #172b4d;
 }
 
 /* the social media section */
 
 .social-media {
-    margin: 62px auto;
-    width: 171px;
-    height: 20px;
+  margin: 62px auto;
+  width: 171px;
+  height: 20px;
 }
 
 .social-media ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* the end button section */
 .normal-button {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }

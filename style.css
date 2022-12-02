@@ -100,7 +100,212 @@ body {
   align-items: center;
 }
 
-/* the end button section */
+/* the button section */
 .normal-button {
   justify-content: center;
+  margin-bottom: 22px;
 }
+
+/* the work section */
+.text {
+  width: 327px;
+  height: 97px;
+  margin: 0 auto;
+}
+
+.text h2 {
+  color: #172b4d;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.text hr {
+  width: 48px;
+  height: 4px;
+  background-color: #36b37e;
+  border-radius: 24px;
+  margin: 0 auto;
+}
+
+/* Card Section */
+
+.card-works {
+  margin-top: 62px;
+}
+
+.cards {
+  background-color: #FFFFFF;
+  width: 327px;
+  height: 474px;
+  margin: 21px auto;
+  border: 2px solid #D0D9D4;
+  border-radius: 10px;
+}
+
+.cards img {
+  height: 252px;
+  width: 327px;
+}
+
+.text-holder h3 {
+  width: 295px;
+  height: 57px;
+  margin: 16px auto;
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  
+}
+
+.text-holder ul{
+  margin: 24px 11px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(4 1fr);
+  column-gap: 8px;
+  
+}
+
+.text-holder li {
+  border: 2px solid #EBF0EE;
+  list-style: none;
+  background: #EBF0EE;
+  border-radius: 4px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-button {
+  width: 122px;
+  height: 48px;
+  background: #36B37F;
+  border-radius: 4px;
+  border-color: #36B37F;
+  margin: 5px auto 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.project-button a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #FFFFFF;
+  letter-spacing: 0.03em;
+  font-size: 17px;
+}
+
+/* About me section */
+.aboutme-section {
+  padding-top: 68px;
+}
+
+.about-me {
+  background-image: url(img/illustration-\ about\ me-\ mobile.png);
+  background-position: bottom 0px left 0px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  
+}
+
+.about-me h3 {
+  width: 351px;
+  height: 48px;
+  font-size: 40px;
+  text-align: center;
+  margin: 0 auto;
+  color: #172B4D;
+}
+
+.about-me p {
+  width: 351px;
+  height: 189px;
+  margin: 21px auto;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  align-items: center;
+  text-align: center;
+  color: #42526E;
+}
+
+.about-me button {
+  width: 159px;
+  height: 48px;
+  background: #36B37F;
+  border-radius: 4px;
+  border-color: #36B37F;
+  margin: 5px auto 24px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.about-me button a{
+  text-decoration: none;
+  font-weight: 500;
+  color: #FFFFFF;
+  letter-spacing: 0.03em;
+  font-size: 17px;
+}
+
+.about-me img {
+  position: absolute;
+  width: 68px;
+  height: 127px;
+  right: 0px;
+  top: 3950px;
+}
+
+/* Skills section */
+
+.skills-card {
+  background-color: #FFFFFF;
+  height: 352px;
+  width: 327px;
+  margin: 24px auto;
+  border: 1px solid #C1C7D0;
+  border-radius: 8px;
+}
+
+.skills-card .icon1 {
+  height: 128px;
+  width: 327px;
+} 
+.icon1 img {
+  margin-top: 20px;
+}
+
+.skills-card h3 {
+  margin: 45px auto;
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  color: #344563;
+
+  
+}
+
+.skills-card ul{
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.skills-card li {
+  border: 2px solid #EBF0EE;
+  list-style: none;
+  background: #EBF0EE;
+  border-radius: 4px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #36B37E;
+  
+} 

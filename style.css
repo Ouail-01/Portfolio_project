@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;600;700&display=swap");
 
 * {
   padding: 0;
@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #ebf0ee;
+  background-color: #fff;
   background-image: url(img/header-illsutration-mobile.png);
   height: 100vh;
   background-position: center;
@@ -150,12 +150,13 @@ body {
 }
 
 .text-holder h3 {
+  color: #3a4a42;
   width: 295px;
   height: 57px;
   margin: 16px auto;
   text-align: center;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 32px;
 }
 
@@ -168,6 +169,7 @@ body {
 }
 
 .text-holder li {
+  color: #3a4a42;
   border: 2px solid #ebf0ee;
   list-style: none;
   background: #ebf0ee;
@@ -183,7 +185,7 @@ body {
   height: 48px;
   background: #36b37f;
   border-radius: 4px;
-  border-color: #36b37f;
+  border: none;
   margin: 5px auto 24px;
   display: flex;
   align-items: center;
@@ -225,7 +227,7 @@ body {
   height: 189px;
   margin: 21px auto;
   font-size: 20px;
-  line-height: 28px;
+  line-height: 32px;
   font-weight: 400;
   align-items: center;
   text-align: center;
@@ -242,6 +244,7 @@ body {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  border: none;
 }
 
 .about-me button a {
@@ -256,14 +259,14 @@ body {
   position: absolute;
   width: 68px;
   height: 127px;
-  right: 0.01px;
+  right: 0;
   top: 3950px;
 }
 
 /* Skills section */
 
 .skills-card {
-  background-color: #fff;
+  background-color: #ebf0ee;
   height: 352px;
   width: 327px;
   margin: 24px auto;
@@ -281,7 +284,7 @@ body {
 }
 
 .skills-card h3 {
-  margin: 45px auto;
+  margin: 40px auto;
   text-align: center;
   font-weight: 600;
   font-size: 24px;
@@ -295,11 +298,11 @@ body {
 }
 
 .skills-card li {
-  border: 2px solid #ebf0ee;
+  border: 1px solid #fff;
   list-style: none;
-  background: #ebf0ee;
-  border-radius: 4px;
-  height: 32px;
+  background: #fff;
+  border-radius: 8px;
+  padding: 12px 6px;
   display: flex;
   align-items: center;
   justify-content: center;

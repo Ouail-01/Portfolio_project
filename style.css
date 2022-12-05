@@ -162,10 +162,8 @@ body {
 
 .text-holder ul {
   margin: 24px 11px;
-  display: grid;
-  grid-auto-flow: column;
-  grid-template-columns: repeat(4 1fr);
   column-gap: 8px;
+  float: left;
 }
 
 .text-holder li {

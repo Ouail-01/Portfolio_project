@@ -347,6 +347,7 @@ body {
   width: 327px;
   height: 114px;
   padding: 15px;
+  border: 1px solid #60C095;
 }
 
 .form button {
@@ -367,8 +368,8 @@ body {
   display: flex;
   list-style: none;
   gap: 20px;
-  padding-left: 90px;
-  margin-top: 46px;
+  margin: 46px auto 19px;
+  justify-content: center;
 }
 
 .list2 li a {

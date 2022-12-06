@@ -261,6 +261,7 @@ body {
   height: 127px;
   right: 0;
   top: 3950px;
+
 }
 
 /* Skills section */
@@ -308,3 +309,83 @@ body {
   justify-content: center;
   color: #36b37e;
 }
+.form {
+  height: 844px;
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form h3 {
+  font-size: 34px;
+  text-align: center;
+  line-height: 44px;
+  color: #172b4d;
+  font-family: "Inter", sans-serif;
+  height: 216px;
+  margin: 120px auto 58px;
+  align-items: center;
+}
+
+.form ul {
+  list-style: none;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.form ul li input {
+  width: 327px;
+  height: 48px;
+  margin-bottom: 24px;
+  border: 1px solid #D0D9D4;
+  border-radius: 4px;
+  padding: 15px;
+}
+
+
+.form textarea {
+  width: 327px;
+  height: 114px;
+  padding: 15px;
+}
+
+.form button {
+  width: 131px;
+  height: 48px;
+  color: #fff;
+  background-color: #36b37f;
+  border: none;
+  border-radius: 4px;
+  margin: 21px auto 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.list2 {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding-left: 90px;
+  margin-top: 46px;
+}
+
+.list2 li a {
+  width: 18px;
+  height: 20px;
+}
+.form {
+display: flex;
+margin: 60px auto;
+} 
+.social2 p {
+width: 375px;
+height: 189px;
+font-size: 20px;
+margin-top: 19px;
+color: #505F79;
+text-align: center;
+}
+
+

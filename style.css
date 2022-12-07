@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;600;700&display=swap");
 
+/* For mobile screen */
+
 * {
   padding: 0;
   margin: 0;
@@ -27,6 +29,10 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 15px;
+}
+
+.tool-bar ul {
+  display: none;
 }
 
 .tool-bar a {
@@ -384,3 +390,203 @@ body {
   color: #505f79;
   text-align: center;
 }
+
+/* For Desktop screen */
+
+
+@media only screen and (min-width:768px){
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: #fff;
+    background-image: url(Desk-img/Header-llustration-desktop@2x.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Inter", sans-serif;
+  }
+
+  /* Tool-bar Section */
+
+  .tool-bar .logo {
+    display: none;
+  }
+
+  .tool-bar nav {
+    width: 100%;
+    justify-content: center;
+    
+  }
+
+  .tool-bar ul {
+    display: flex;
+    justify-content: center;
+    
+
+  }
+
+  .tool-bar ul li {
+    list-style: none;
+    width: 87px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tool-bar ul li a {
+    text-decoration: none;
+  }
+
+  .tool-bar img {
+    display: none;
+  }
+
+  /* The headline section */
+
+  .intro {
+    height: 114px;
+    width: 920px;
+    margin: 174px auto 24px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .intro h1 {
+    color: #172b4d;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+  }
+
+  .intro h2 {
+    color: #36b37e;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+  }
+
+  .supporting-text {
+    width: 920px;
+    height: 96px;
+    margin: 0 auto;
+    font-size: 21px;
+    line-height: 32px;
+    font-weight: 400;
+    align-items: center;
+    text-align: center;
+  }
+
+  .supporting-text p {
+    color: #172b4d;
+  }
+
+  /* The social section */
+
+  .social-media {
+    margin: 40px auto 84px;
+    width: 200px;
+    height: 40px;
+  }
+
+  .social-media ul {
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* the button section */
+
+  .normal-button {
+   justify-content: center;
+   margin-bottom: 270px;
+  }
+
+  /* The work section */
+
+  .text {
+    width: 447px;
+    height: 48px;
+    margin: 0 auto;
+  }
+
+  .text h2 {
+    color: #172b4d;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    margin-bottom: 52px;
+  }
+
+  .text hr {
+    display: none;
+  }
+
+  /* Card Section */
+
+  .card-works {
+    width: 1171px;
+    height: 1100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1px;
+    
+  }
+
+  .cards {
+    background-color: #fff;
+    width: 369px;
+    height: 474px;
+    border: 2px solid #d0d9d4;
+    border-radius: 10px;
+  }
+
+  .cards:nth-child(n+4) {
+    margin-top: -20px;
+  }
+
+  .cards img {
+    height: 252px;
+    width: 369px;
+  }
+
+  .text-holder h3 {
+    color: #172B4D;
+    width: 337px;
+    height: 57px;
+    margin: 16px auto;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .text-holder ul {
+    margin: 24px 32px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(4 1fr);
+    column-gap: 8px;
+  }
+
+  .project-button a {
+    line-height: 0.03em;
+  }
+
+  /* About me section */
+
+
+
+}
+
+

@@ -261,12 +261,16 @@ body {
   font-size: 17px;
 }
 
-.about-me img {
+.about-me .about-imgMobile {
   position: absolute;
   width: 68px;
   height: 127px;
   right: 0;
   top: 3950px;
+}
+
+.about-me .about-imgDesktop {
+  display: none;
 }
 
 /* Skills section */
@@ -532,6 +536,8 @@ body {
   /* Card Section */
 
   .card-works {
+
+    background: goldenrod;
     width: 1171px;
     height: 1100px;
     display: grid;
@@ -584,8 +590,53 @@ body {
   }
 
   /* About me section */
+  .aboutme-section {
+  }
+
+  .about-me {
+    background: #000;
+    background-image: url(Desk-img/illustration\ about\ me\ desktop.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .about-me h3 {
+    background: aqua;
+    width: 447px;
+    line-height: 52px;
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .about-me p {
+    background: aqua;
+    width: 920px;
+    height: 96px;
+  }
+
+  .about-me .about-imgMobile {
+    display: none;
+  }
+  
+  .about-me .about-imgDesktop {
+    display: flex;
+    position: absolute;
+    width: 288px;
+    height: 129px;
+    left: -50px;
+    top: 2370px;
+  }
 
 
+
+
+
+/* 
+
+
+*/
 
 }
 

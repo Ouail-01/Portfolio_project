@@ -404,8 +404,7 @@ body {
 
 /* For Desktop screen */
 
-
-@media only screen and (min-width:768px){
+@media only screen and (min-width: 768px) {
   * {
     margin: 0;
     padding: 0;
@@ -429,14 +428,11 @@ body {
   .tool-bar nav {
     width: 100%;
     justify-content: center;
-    
   }
 
   .tool-bar ul {
     display: flex;
     justify-content: center;
-    
-
   }
 
   .tool-bar ul li {
@@ -516,8 +512,8 @@ body {
   /* the button section */
 
   .normal-button {
-   justify-content: center;
-   margin-bottom: 270px;
+    justify-content: center;
+    margin-bottom: 270px;
   }
 
   /* The work section */
@@ -551,7 +547,6 @@ body {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 1px;
-    
   }
 
   .cards {
@@ -562,7 +557,7 @@ body {
     border-radius: 10px;
   }
 
-  .cards:nth-child(n+4) {
+  .cards:nth-child(n + 4) {
     margin-top: -20px;
   }
 
@@ -572,7 +567,7 @@ body {
   }
 
   .text-holder h3 {
-    color: #172B4D;
+    color: #172b4d;
     width: 337px;
     height: 57px;
     margin: 16px auto;
@@ -588,10 +583,6 @@ body {
     grid-auto-flow: column;
     grid-template-columns: repeat(4 1fr);
     column-gap: 8px;
-  }
-
-  .project-button a {
-    line-height: 0.03em;
   }
 
   /* About me section */
@@ -619,7 +610,7 @@ body {
   .about-me .about-imgMobile {
     display: none;
   }
-  
+
   .about-me .about-imgDesktop {
     display: flex;
     position: absolute;
@@ -709,11 +700,11 @@ body {
 
   /* Desktop img */
 
-  .absolute{
+  .absolute {
     position: absolute;
   }
 
-  .desktop-bg{
+  .desktop-bg {
     display: flex;
   }
 
@@ -738,5 +729,3 @@ body {
     top: 3370px;
   }
 }
-
-

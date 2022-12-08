@@ -683,6 +683,7 @@ body {
     border: none;
     border-radius: 4px;
     margin-left: 0;
+    cursor: pointer;
   }
 
   .social2 {

@@ -319,6 +319,8 @@ body {
   color: #36b37e;
 }
 
+/* Form section */
+
 .form {
   height: 844px;
   width: 375px;
@@ -536,8 +538,6 @@ body {
   /* Card Section */
 
   .card-works {
-
-    background: goldenrod;
     width: 1171px;
     height: 1100px;
     display: grid;
@@ -590,28 +590,23 @@ body {
   }
 
   /* About me section */
-  .aboutme-section {
-  }
 
   .about-me {
-    background: #000;
     background-image: url(Desk-img/illustration\ about\ me\ desktop.png);
     background-repeat: no-repeat;
     background-size: 100%;
   }
 
   .about-me h3 {
-    background: aqua;
     width: 447px;
     line-height: 52px;
-    height: 100px;
+    height: 160px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
   }
 
   .about-me p {
-    background: aqua;
     width: 920px;
     height: 96px;
   }
@@ -626,7 +621,26 @@ body {
     width: 288px;
     height: 129px;
     left: -50px;
-    top: 2370px;
+    top: 2430px;
+  }
+
+  /* Skills section */
+
+  .skills {
+    background: #000;
+    width: 1171px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .skills-card {
+    width: 369px;
+  }
+
+  .skills-card img {
+    width: 369px;
   }
 
 
@@ -634,7 +648,6 @@ body {
 
 
 /* 
-
 
 */
 

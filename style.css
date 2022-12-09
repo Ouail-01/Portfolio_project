@@ -729,4 +729,14 @@ body {
     height: 261px;
     top: 3370px;
   }
+
+/* Hover & transition */
+
+  .social-media li a {
+    display: flex;
+    transition: 1s ease;
+  }
+  .social-media li a:hover {
+    transform: rotate(360deg);
+  }
 }

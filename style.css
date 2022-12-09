@@ -739,4 +739,9 @@ body {
   .social-media li a:hover {
     transform: rotate(360deg);
   }
+  .button-hover:hover {
+    background: #36b37e;
+    transition: 0.5 ease;
+    box-shadow: 10px 10px #c1c7d0;
+  }
 }

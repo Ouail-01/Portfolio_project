@@ -444,8 +444,18 @@ body {
     justify-content: center;
   }
 
+  /* Animate */
+  .social-media li a {
+    display: flex;
+    transition: 1s ease;
+  }
+
   .tool-bar ul li a {
     text-decoration: none;
+  }
+
+  .social-media li a:hover {
+    transform: rotate(360deg);
   }
 
   .tool-bar img {
@@ -728,5 +738,13 @@ body {
     width: 236px;
     height: 261px;
     top: 3370px;
+  }
+
+  /* Hover & transition */
+
+  .button-hover:hover {
+    background: #36b37e;
+    transition: 0.5 ease;
+    box-shadow: 10px 10px #c1c7d0;
   }
 }

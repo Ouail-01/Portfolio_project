@@ -29,7 +29,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://ouail-01.github.io/Portfolio_project/)
+- [Live Demo](https://ouail-01.github.io/Portfolio_project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

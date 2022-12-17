@@ -22,6 +22,8 @@
 
 > Portfolio: setup and mobile first
 
+> Here's a [video ](https://www.loom.com/share/c4d33423d004447889c925d6fd681dae) of me giving a few description of the project.
+
 ## 🛠 Built With <a name="built-with"></a>
 > Html & CSS
 

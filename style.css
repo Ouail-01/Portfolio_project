@@ -67,6 +67,19 @@ body {
   line-height: 44px;
   background-size: cover;
 }
+.burger {
+  cursor: pointer;
+}
+.burger.active .line:nth-child(2){
+  opacity: 0;
+}
+.burger.active .line:nth-child(1){
+  transform: translateY(8px) rotate(45deg);
+}
+.burger.active .line:nth-child(3){
+  transform: translateY(-8px) rotate(-45deg);
+}
+
 /* end toolbar section */
 
 /* headline section */

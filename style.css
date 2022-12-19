@@ -48,6 +48,25 @@ body {
   background-color: transparent;
 }
 
+#nav-menu {
+  display: block;
+  list-style: none;
+  top: 70px;
+  gap: 0;
+  left: 100%;
+  flex-direction: column;
+  position: fixed;
+  background: #fff;
+  width: 100%;
+  align-items: flex-start;
+  padding-left: 28px;
+  height: 100vh;
+  transition: 0.3s;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  background-size: cover;
+}
 /* end toolbar section */
 
 /* headline section */
@@ -442,6 +461,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  #nav-menu {
+    display: none;
+  }
+
+  .burger {
+    display: none;
   }
 
   /* Animate */

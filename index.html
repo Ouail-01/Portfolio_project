@@ -10,21 +10,41 @@
 
 <body>
     <!--the tool bar section -->
-    <header class="tool-bar flex">
-        <a class="logo" href="#">Welcome</a>
+    <header id="welcome" class="tool-bar flex">
+        <a class="logo" href="#welcome">Welcome</a>
         <nav>
             <ul>
                 <li>
-                    <a href="#">Portfolio</a>
+                    <a href="#portfolio">Portfolio</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <a href="#about">About</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="#contact">Contact</a>
                 </li>
             </ul>
-            <img src="img/Union.png" alt="Menu">
+            <div class="menu-content">
+                <!-- <img class="tab-menu" src="img/Union.png" alt="Menu"> -->
+
+                <div class="burger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                
+                <ul id="nav-menu">
+                    <li>
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
     <!-- the headline section-->
@@ -76,7 +96,7 @@
         </div>
     </section>
     <!-- The work section -->
-    <section class="works-section">
+    <section id="portfolio" class="works-section">
         <div class="text">
             <h2>My Recent Works</h2>
             <hr>
@@ -187,7 +207,7 @@
         </div>
     </section>
     <!-- About me section -->
-    <section class="aboutme-section">
+    <section id="about" class="aboutme-section">
         <div class="about-me">
             <img class="about-imgMobile" src="img/Mask Group.png" alt="bg-img">
             <img class="about-imgDesktop" src="Desk-img/about-img.svg" alt="bg-img">
@@ -244,7 +264,7 @@
 
     </section>
     <!-- The form section -->
-    <section class="form">
+    <section id="contact" class="form">
         <div class="form1">
             <h3>I'm always <br> interested in hearing <br> about new projects, <br> so if you'd like to <br> chat please
                 get in touch.</h3>
@@ -302,6 +322,8 @@
         <img class="bg-3 absolute" src="Desk-img/bgimg-3.png" alt="Desktop-img3">
     </div>
 
+
+    <script src="index.js"></script>
 </body>
 
 </html>

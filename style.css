@@ -26,11 +26,6 @@ body.active {
   overflow: hidden;
 }
 
-.logo.active {
-  position: absolute;
-  left: -100%;
-}
-
 .tool-bar {
   width: auto;
   height: 28px;
@@ -59,7 +54,7 @@ body.active {
 #nav-menu {
   display: block;
   list-style: none;
-  top: 70px;
+  top: 0px;
   gap: 0;
   left: 100%;
   flex-direction: column;
@@ -68,12 +63,21 @@ body.active {
   width: 100%;
   align-items: flex-start;
   padding-left: 28px;
-  height: 100vh;
-  transition: 0.3s;
+  height: 89%;
+  transition: 0.5s;
+  padding-top: 100px;
+  box-shadow: 0 48px 48px rgba(19, 41, 240, 0.08);
+  border-radius: 0 0 50px 50px;
+}
+
+#nav-menu li{
+  margin-bottom: 40px;
+}
+#nav-menu li a{
+  color: #3A4A42;
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
-  background-size: cover;
 }
 
 #nav-menu.active {
@@ -112,16 +116,12 @@ body.active {
   justify-content: center;
 }
 
-#nav-menu li {
-  margin-bottom: 40px;
-}
-
 .tool-bar img {
   cursor: pointer;
 }
 
 .burger div {
-  width: 25px;
+  width: 20px;
   height: 2px;
   background: #172b4d;
   margin: 5px;
@@ -132,9 +132,8 @@ body.active {
 }
 
 .burger.active {
-  position: fixed;
-  right: 15px;
-  top: 15px;
+  position: relative;
+  z-index: 1;
 }
 
 .burger.active .line:nth-child(2) {
@@ -143,10 +142,12 @@ body.active {
 
 .burger.active .line:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
+  background-color: #67798E;
 }
 
 .burger.active .line:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
+  background-color: #67798E;
 }
 
 /* end toolbar section */

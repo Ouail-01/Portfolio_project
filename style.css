@@ -22,6 +22,9 @@ body {
 }
 
 /* toolbar section */
+body.active {
+  overflow: hidden;
+}
 
 .tool-bar {
   width: auto;
@@ -36,7 +39,7 @@ body {
 }
 
 .tool-bar a {
-  font-style: 20px;
+  font-size: 20px;
   font-weight: 600;
   text-decoration: none;
   color: #172b4d;
@@ -46,6 +49,95 @@ body {
 .tool-bar button {
   border: none;
   background-color: transparent;
+}
+
+#nav-menu {
+  display: block;
+  list-style: none;
+  top: 0;
+  gap: 0;
+  left: 100%;
+  flex-direction: column;
+  position: fixed;
+  background: #fff;
+  width: 100%;
+  align-items: flex-start;
+  padding-left: 28px;
+  height: 89%;
+  transition: 0.5s;
+  padding-top: 100px;
+  box-shadow: 0 48px 48px rgba(19, 41, 240, 0.08);
+  border-radius: 0 0 50px 50px;
+}
+
+#nav-menu.active {
+  left: 0;
+}
+
+.skills-card li {
+  border: 1px solid #fff;
+  list-style: none;
+  background: #fff;
+  border-radius: 8px;
+  padding: 12px 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #36b37e;
+}
+
+.text-holder ul {
+  margin: 24px 11px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 8px;
+}
+
+.text-holder li {
+  color: #3a4a42;
+  border: 2px solid #ebf0ee;
+  list-style: none;
+  background: #ebf0ee;
+  border-radius: 4px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tool-bar img {
+  cursor: pointer;
+}
+
+.burger div {
+  width: 20px;
+  height: 2px;
+  background: #172b4d;
+  margin: 5px;
+}
+
+.burger {
+  cursor: pointer;
+}
+
+.burger.active {
+  position: relative;
+  z-index: 1;
+}
+
+.burger.active .line:nth-child(2) {
+  opacity: 0;
+}
+
+.burger.active .line:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+  background-color: #67798e;
+}
+
+.burger.active .line:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+  background-color: #67798e;
 }
 
 /* end toolbar section */
@@ -164,26 +256,6 @@ body {
   font-weight: 600;
   font-size: 22px;
   line-height: 32px;
-}
-
-.text-holder ul {
-  margin: 24px 11px;
-  display: grid;
-  grid-auto-flow: column;
-  grid-template-columns: repeat(4 1fr);
-  column-gap: 8px;
-}
-
-.text-holder li {
-  color: #3a4a42;
-  border: 2px solid #ebf0ee;
-  list-style: none;
-  background: #ebf0ee;
-  border-radius: 4px;
-  height: 32px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .project-button {
@@ -307,18 +379,6 @@ body {
   gap: 8px;
 }
 
-.skills-card li {
-  border: 1px solid #fff;
-  list-style: none;
-  background: #fff;
-  border-radius: 8px;
-  padding: 12px 6px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #36b37e;
-}
-
 /* Form section */
 
 .form {
@@ -402,6 +462,17 @@ body {
   display: none;
 }
 
+#nav-menu li {
+  margin-bottom: 40px;
+}
+
+#nav-menu li a {
+  color: #3a4a42;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+}
+
 /* For Desktop screen */
 
 @media only screen and (min-width: 768px) {
@@ -442,6 +513,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  #nav-menu {
+    display: none;
+  }
+
+  .burger {
+    display: none;
   }
 
   /* Animate */
@@ -591,7 +670,7 @@ body {
     margin: 24px 32px;
     display: grid;
     grid-auto-flow: column;
-    grid-template-columns: repeat(4 1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 8px;
   }
 
@@ -744,7 +823,7 @@ body {
 
   .button-hover:hover {
     background: #36b37e;
-    transition: 0.5 ease;
+    transition: 0.5s ease;
     box-shadow: 10px 10px #c1c7d0;
   }
 }

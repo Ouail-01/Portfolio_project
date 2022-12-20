@@ -54,7 +54,7 @@ body.active {
 #nav-menu {
   display: block;
   list-style: none;
-  top: 0px;
+  top: 0;
   gap: 0;
   left: 100%;
   flex-direction: column;
@@ -68,16 +68,6 @@ body.active {
   padding-top: 100px;
   box-shadow: 0 48px 48px rgba(19, 41, 240, 0.08);
   border-radius: 0 0 50px 50px;
-}
-
-#nav-menu li{
-  margin-bottom: 40px;
-}
-#nav-menu li a{
-  color: #3A4A42;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 44px;
 }
 
 #nav-menu.active {
@@ -142,12 +132,12 @@ body.active {
 
 .burger.active .line:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
-  background-color: #67798E;
+  background-color: #67798e;
 }
 
 .burger.active .line:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
-  background-color: #67798E;
+  background-color: #67798e;
 }
 
 /* end toolbar section */
@@ -470,6 +460,17 @@ body.active {
 
 .desktop-bg {
   display: none;
+}
+
+#nav-menu li {
+  margin-bottom: 40px;
+}
+
+#nav-menu li a {
+  color: #3a4a42;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
 }
 
 /* For Desktop screen */

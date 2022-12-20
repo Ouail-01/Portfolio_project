@@ -75,20 +75,44 @@ body.active {
   line-height: 44px;
   background-size: cover;
 }
+
+#nav-menu.active {
+  left: 0;
+}
+
+#nav-menu li {
+  margin-bottom: 40px;
+}
+
+.tool-bar img {
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 2px;
+  background: #172B4D;
+  margin: 5px;
+}
+
 .burger {
   cursor: pointer;
 }
+
 .burger.active{
   position: fixed;
   right: 15px;
   top: 15px;
 }
+
 .burger.active .line:nth-child(2){
   opacity: 0;
 }
+
 .burger.active .line:nth-child(1){
   transform: translateY(8px) rotate(45deg);
 }
+
 .burger.active .line:nth-child(3){
   transform: translateY(-8px) rotate(-45deg);
 }

@@ -1022,4 +1022,42 @@ body.active {
     transform: translateY(-7.5px) rotate(-45deg);
     background-color: #67798e;
   }
+
+  .popup-window .display-mobile {
+    display: flex;
+  }
+  
+  .popup-window h3 {
+    color: #172B4D;
+    min-height: 50px;
+    width: 55%;
+    float: left;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    margin-right: 385px;
+    margin-top: -38px;
+  }
+  
+  .popup-window ul {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(auto-fill, 1fr);
+    column-gap: 8px;
+    margin: 6px auto 35px 20px;
+  }
+  
+  .popup-window ul li {
+    color: #3a4a42;
+    font-style: normal;
+    border: 2px solid #ebf0ee;
+    list-style: none;
+    background: #ebf0ee;
+    border-radius: 4px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px 4px;
+  }
 }

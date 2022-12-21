@@ -120,10 +120,8 @@ cardsButton.forEach((item, i) => item.addEventListener('click', () => {
   popupLiveVersion.href = project.liveVersion;
   const popupSourceCode = popContainer.querySelector('.popup-button-source');
   popupSourceCode.href = project.sourceCode;
- 
 }));
-burgerPopup.addEventListener('click', () => {
-    popupWindow.classList.remove('active');
-  });
-  
 
+burgerPopup.addEventListener('click', () => {
+  popupWindow.classList.remove('active');
+});

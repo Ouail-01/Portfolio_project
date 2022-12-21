@@ -110,4 +110,6 @@ cardsButton.forEach((item, i) => item.addEventListener('click', () => {
   popupTitle.textContent = project.title;
   const popupDescription = popContainer.querySelector('.popup-description');
   popupDescription.textContent = project.description;
+
 }));
+

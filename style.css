@@ -1060,4 +1060,47 @@ body.active {
     justify-content: center;
     padding: 1px 4px;
   }
+  .popup-window p {
+    height: 100px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #344563;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 44px;
+  }
+  
+  .popup-buttons {
+    display: flex;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(auto-fill, 1fr);
+    gap: 12px;
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 490px;
+    right: 210px;
+  }
+  
+  .popup-buttons button {
+    height: 48px;
+    width: 40%;
+    border: none;
+    border-radius: 4px;
+    background: #36B37F;
+    padding-right: 16px;
+    padding-left: 16px;
+    text-align: center;
+  }
+  
+  .popup-buttons a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 0.03em;
+    font-size: 17px;
+  }
+
 }

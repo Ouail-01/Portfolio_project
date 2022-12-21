@@ -495,7 +495,7 @@ body.active {
 .popup-window {
   background: #fff;
   width: 90%;
-  height: 98vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -516,9 +516,9 @@ body.active {
 }
 
 .burger-popup {
-  position: absolute;
-  top: 45px;
-  right: 47px;
+  position: relative;
+  bottom: 200px;
+  left: 127px;
 }
 
 .burger-popup .popup-line:nth-child(2) {
@@ -535,15 +535,19 @@ body.active {
   background-color: #67798e;
 }
 
+.popup-window .display-mobile {
+  display: none;
+}
+
 .popup-window h3 {
   color: #172B4D;
   height: auto;
+  width: 90%;
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
-  margin-left: 20px;
-  margin-right: auto;
-  margin-top: 6px;
+  margin-left: 10px;
+  margin-top: -18px;
 }
 
 .popup-window ul {
@@ -585,6 +589,7 @@ body.active {
   gap: 12px;
   width: 90%;
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .popup-buttons button {
@@ -595,7 +600,6 @@ body.active {
   padding-right: 16px;
   padding-left: 16px;
   text-align: center;
-  bottom: 16px;
 }
 
 .popup-buttons a {
@@ -605,6 +609,7 @@ body.active {
   letter-spacing: 0.03em;
   font-size: 17px;
 }
+
 /* For Desktop screen */
 
 @media only screen and (min-width: 768px) {
@@ -957,5 +962,64 @@ body.active {
     background: #36b37e;
     transition: 0.5s ease;
     box-shadow: 10px 10px #c1c7d0;
+  }
+
+  #popup-windows {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(193, 199, 208, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+    width: 100%;
+  }
+  
+  .popup-window {
+    background: #fff;
+    width: 920px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+  }
+
+  .popup-window img {
+    margin-top: 60px;
+    height: 416px;
+  }
+
+  .burger-popup div {
+    width: 20px;
+    height: 2px;
+    background: #172b4d;
+    margin: 5px;
+  }
+  
+  .burger-popup {
+    position: relative;
+    bottom: 465px;
+    left: 415px;
+    background: #EBECF0;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .burger-popup .popup-line:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .burger-popup .popup-line:nth-child(1) {
+    transform: translateY(7.5px) rotate(45deg);
+    background-color: #67798e;
+  }
+  
+  .burger-popup .popup-line:nth-child(3) {
+    transform: translateY(-7.5px) rotate(-45deg);
+    background-color: #67798e;
   }
 }

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -32,7 +33,7 @@
                     <div class="line"></div>
                     <div class="line"></div>
                 </div>
-                
+
                 <ul id="nav-menu">
                     <li>
                         <a class="nav-link" href="#portfolio">Portfolio</a>
@@ -90,7 +91,7 @@
             </ul>
         </div>
         <div class="normal-button flex">
-            <a href="#">
+            <a href="#portfolio">
                 <img src="img/Disabled.png" alt="Scroll_button">
             </a>
         </div>
@@ -102,109 +103,14 @@
             <hr>
         </div>
         <div class="card-works">
-            <div class="cards">
-                <div class="img-holder">
-                    <img src="img/card1.png" alt="project1">
-                </div>
-                <div class="text-holder">
-                    <h3>Multi-Post Stories <br> Gain+Glory</h3>
-                    <ul>
-                        <li>Ruby on Rails</li>
-                        <li>CSS</li>
-                        <li>JavScript</li>
-                        <li>Html</li>
-                    </ul>
-                    <button class="project-button" type="button">
-                        <a href="#">See Project</a>
-                    </button>
-                </div>
-            </div>
-            <div class="cards">
-                <div class="img-holder">
-                    <img src="img/card2.png" alt="project2">
-                </div>
-                <div class="text-holder">
-                    <h3>Multi-Post Stories <br> Gain+Glory</h3>
-                    <ul>
-                        <li>Ruby on Rails</li>
-                        <li>CSS</li>
-                        <li>JavScript</li>
-                        <li>Html</li>
-                    </ul>
-                    <button class="project-button" type="button">
-                        <a href="#">See Project</a>
-                    </button>
-                </div>
-            </div>
-            <div class="cards">
-                <div class="img-holder">
-                    <img src="img/card3.png" alt="project3">
-                </div>
-                <div class="text-holder">
-                    <h3>Multi-Post Stories <br> Gain+Glory</h3>
-                    <ul>
-                        <li>Ruby on Rails</li>
-                        <li>CSS</li>
-                        <li>JavScript</li>
-                        <li>Html</li>
-                    </ul>
-                    <button class="project-button" type="button">
-                        <a href="#">See Project</a>
-                    </button>
-                </div>
-            </div>
-            <div class="cards">
-                <div class="img-holder">
-                    <img src="img/card4.png" alt="project4">
-                </div>
-                <div class="text-holder">
-                    <h3>Multi-Post Stories <br> Gain+Glory</h3>
-                    <ul>
-                        <li>Ruby on Rails</li>
-                        <li>CSS</li>
-                        <li>JavScript</li>
-                        <li>Html</li>
-                    </ul>
-                    <button class="project-button" type="button">
-                        <a href="#">See Project</a>
-                    </button>
-                </div>
-            </div>
-            <div class="cards">
-                <div class="img-holder">
-                    <img src="img/Img Placeholder.png" alt="project5">
-                </div>
-                <div class="text-holder">
-                    <h3>Multi-Post Stories <br> Gain+Glory</h3>
-                    <ul>
-                        <li>Ruby on Rails</li>
-                        <li>CSS</li>
-                        <li>JavScript</li>
-                        <li>Html</li>
-                    </ul>
-                    <button class="project-button" type="button">
-                        <a href="#">See Project</a>
-                    </button>
-                </div>
-            </div>
-            <div class="cards">
-                <div class="img-holder">
-                    <img src="img/Img Placeholder.png" alt="project6">
-                </div>
-                <div class="text-holder">
-                    <h3>Multi-Post Stories <br> Gain+Glory</h3>
-                    <ul>
-                        <li>Ruby on Rails</li>
-                        <li>CSS</li>
-                        <li>JavScript</li>
-                        <li>Html</li>
-                    </ul>
-                    <button class="project-button" type="button">
-                        <a href="#">See Project</a>
-                    </button>
-                </div>
-            </div>
+            
         </div>
+    </section>
+    <!-- Popup Window -->
+
+    <section id="popup-windows" class="popup-container"> <!-- class="active" -->
+        
+
     </section>
     <!-- About me section -->
     <section id="about" class="aboutme-section">
@@ -261,7 +167,7 @@
                 </ul>
             </div>
         </div>
-
+        
     </section>
     <!-- The form section -->
     <section id="contact" class="form">
@@ -271,7 +177,8 @@
             <form action="https://formspree.io/f/xyyvrwvj" method="post">
                 <ul>
                     <li>
-                        <input for="fname" type="text" name="fname" id="fname" placeholder="Full name" maxlength="30" required>
+                        <input for="fname" type="text" name="fname" id="fname" placeholder="Full name" maxlength="30"
+                            required>
                     </li>
                     <li>
                         <input for="email" type="email" name="email" id="email" placeholder="Email address" required>

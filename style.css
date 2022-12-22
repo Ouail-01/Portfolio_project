@@ -597,7 +597,7 @@ body.active {
 .popup-buttons {
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: auto auto ;
+  grid-template-columns: auto auto;
   gap: 12px;
   width: 90%;
   margin-top: 10px;

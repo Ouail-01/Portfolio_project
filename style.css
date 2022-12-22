@@ -417,7 +417,7 @@ body.active {
 .form ul li input {
   width: 327px;
   height: 48px;
-  margin-bottom: 24px;
+  margin-bottom: 10px;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
   padding: 15px;
@@ -428,6 +428,7 @@ body.active {
   height: 114px;
   padding: 15px;
   border: 1px solid #60c095;
+  margin-top: 10px;
 }
 
 .form button {
@@ -437,7 +438,7 @@ body.active {
   background-color: #36b37f;
   border: none;
   border-radius: 4px;
-  margin: 21px auto 1px;
+  margin: 21px auto 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -617,6 +618,8 @@ body.active {
 .popup-buttons img {
   height: 20px;
 }
+
+/* Form validation */
 
 /* For Desktop screen */
 

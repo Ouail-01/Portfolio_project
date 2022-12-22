@@ -16,8 +16,7 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
 // Popup-window script
 
 const popupWindow = document.querySelector('#popup-windows');
-const burgerPopup = document.querySelector('.burger-popup');
-const cardsButton = document.querySelectorAll('.project-button');
+// const cardsButton = document.querySelectorAll('.project-button');
 const myProjects = [
 
   {
@@ -99,7 +98,63 @@ const myProjects = [
   },
 
 ];
-// const cardsButton = document.querySelectorAll('.project-button');
+
+for (let i = 0; i < myProjects.length; i += 1) {
+  document.querySelector('.card-works').innerHTML += `<div class="cards">
+                <div class="img-holder">
+                    <img src="${myProjects[i].featuredImage}" alt="project1">
+                </div>
+                <div class="text-holder">
+                    <h3>${myProjects[i].title}</h3>
+                    <ul>
+                        <li>Ruby on Rails</li>
+                        <li>CSS</li>
+                        <li>JavScript</li>
+                        <li>Html</li>
+                    </ul>
+                    <button class="project-button" type="button">
+                        <a href="#portfolio">See Project</a>
+                    </button>
+                </div>
+            </div>`;
+}
+
+document.querySelector('.popup-container').innerHTML += `<div class="popup-window">
+  <img class="popup-image" src="img/card1.png" alt="img-popup">
+  <div class="burger-popup">
+      <div class="popup-line"></div>
+      <div class="popup-line"></div>
+      <div class="popup-line"></div>
+  </div>
+  <h3 class="popup-title">Keeping track of hundreds of components</h3>
+  <div class="popup-buttons display-mobile-none">
+      <button>
+          <a class="popup-button-live" href="" target="_blank">See Live <i class="fa fa-circle-o-notch " style="font-size: 20px;"></i></a>
+      </button>
+      <button>
+          <a class="popup-button-source" href="" target="_blank">See Source <i class="fa fa-github" style="font-size: 20px;"></i></a>
+      </button>
+  </div>
+  <ul>
+      <li class="popup-technology"></li>
+      <li class="popup-technology"></li>
+      <li class="popup-technology"></li>
+      <li class="popup-technology display-mobile-none"></li>
+      <li class="popup-technology display-mobile-none"></li>
+      <li class="popup-technology display-mobile-none"></li>
+  </ul>
+  <p class="popup-description"></p>
+  <div class="popup-buttons display-desktop-none">
+      <button>
+          <a class="popup-button-live" href="" target="_blank">See Live <i class="fa fa-circle-o-notch " style="font-size: 20px;"></i></a>
+      </button>
+      <button>
+          <a class="popup-button-source" href="" target="_blank">See Source <i class="fa fa-github" style="font-size: 20px;"></i></a>
+      </button>
+  </div>
+</div>`;
+
+const cardsButton = document.querySelectorAll('.project-button');
 
 cardsButton.forEach((item, i) => item.addEventListener('click', () => {
   popupWindow.classList.toggle('active');
@@ -121,6 +176,8 @@ cardsButton.forEach((item, i) => item.addEventListener('click', () => {
   const popupSourceCode = popContainer.querySelector('.popup-button-source');
   popupSourceCode.href = project.sourceCode;
 }));
+
+const burgerPopup = document.querySelector('.burger-popup');
 
 burgerPopup.addEventListener('click', () => {
   popupWindow.classList.remove('active');

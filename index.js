@@ -198,14 +198,17 @@ form.addEventListener('submit', (event) => {
 
 // preserve data in the browser
 
-const inputText = document.querySelectorAll('.input-text');
+const inputText = document.querySelectorAll('.input-data');
 const dataStored = {
   name: '',
   email: '',
+  message: '',
 };
 inputText.forEach((input) => {
   input.addEventListener('input', () => {
     dataStored[input.name] = input.value;
+    dataStored[input.email] = input.value;
+    dataStored[input.message] = input.value;
     localStorage.setItem('everyData', JSON.stringify(dataStored));
   });
 });

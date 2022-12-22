@@ -510,6 +510,10 @@ body.active {
   transform: scale(0); /* scale (0) */
 }
 
+.popup-container {
+  overflow: scroll;
+}
+
 #popup-windows.active {
   transform: scale(1);
 }
@@ -517,11 +521,12 @@ body.active {
 .popup-window {
   background: #fff;
   width: 90%;
-  height: auto;
+  max-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   border-radius: 16px;
+  overflow: scroll;
 }
 
 .popup-window img {
@@ -556,7 +561,7 @@ body.active {
   background-color: #67798e;
 }
 
-.popup-window .display-mobile {
+.popup-window .display-mobile-none {
   display: none;
 }
 
@@ -580,7 +585,7 @@ body.active {
 }
 
 .popup-window p {
-  height: 300px;
+  height: auto;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
@@ -592,7 +597,7 @@ body.active {
 .popup-buttons {
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: auto auto ;
   gap: 12px;
   width: 90%;
   margin-top: 10px;
@@ -628,6 +633,10 @@ body.active {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Inter", sans-serif;
+  }
+
+  .popup-window .display-desktop-none {
+    display: none;
   }
 
   .popup-buttons a {
@@ -991,16 +1000,18 @@ body.active {
   .popup-window {
     background: #fff;
     width: 920px;
-    height: auto;
+    max-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 16px;
+    overflow-x: hidden;
   }
 
   .popup-window img {
     margin-top: 60px;
     height: 416px;
+    width: 876px;
   }
 
   .burger-popup div {
@@ -1034,25 +1045,25 @@ body.active {
     background-color: #67798e;
   }
 
-  .popup-window .display-mobile {
+  .popup-window .display-mobile-none {
     display: flex;
   }
 
   .popup-window h3 {
     color: #172b4d;
-    min-height: 50px;
+    min-height: auto;
     width: 55%;
     float: left;
     font-weight: 600;
     font-size: 32px;
     line-height: 44px;
     margin-right: 385px;
-    margin-top: -38px;
+    margin-top: -28px;
   }
 
   .popup-window ul {
     column-gap: 8px;
-    margin: 6px auto 35px 20px;
+    margin: -66px auto 35px 20px;
   }
 
   .popup-window ul li {
@@ -1070,7 +1081,7 @@ body.active {
   }
 
   .popup-window p {
-    height: 100px;
+    height: auto;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
@@ -1083,19 +1094,18 @@ body.active {
   .popup-buttons {
     display: flex;
     grid-auto-flow: column;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: auto auto;
     gap: 12px;
-    width: 30%;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    position: absolute;
-    top: 490px;
-    right: 210px;
+    width: 100%;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 58px;
+    margin-right: 35px;
   }
 
   .popup-buttons button {
     height: 48px;
-    width: 40%;
+    width: 20%;
     border: none;
     border-radius: 4px;
     background: #36b37f;

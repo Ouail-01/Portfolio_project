@@ -182,3 +182,16 @@ const burgerPopup = document.querySelector('.burger-popup');
 burgerPopup.addEventListener('click', () => {
   popupWindow.classList.remove('active');
 });
+
+//  validate email form
+
+const email = document.getElementById('email');
+const errorMsg = document.querySelector('.error-display');
+const form = document.querySelector('#form-contact');
+form.addEventListener('submit', (event) => {
+  if (email.value.toLowerCase() !== email.value) {
+    errorMsg.style.display = 'block';
+    errorMsg.textContent = 'Please, use lowercase letters for your email address';
+    event.preventDefault();
+  }
+});

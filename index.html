@@ -174,7 +174,7 @@
         <div class="form1">
             <h3>I'm always <br> interested in hearing <br> about new projects, <br> so if you'd like to <br> chat please
                 get in touch.</h3>
-            <form action="https://formspree.io/f/xyyvrwvj" method="post">
+            <form action="https://formspree.io/f/xyyvrwvj" id="form-contact" method="post">
                 <ul>
                     <li>
                         <input for="fname" type="text" name="fname" id="fname" placeholder="Full name" maxlength="30"
@@ -183,12 +183,12 @@
                     <li>
                         <input for="email" type="email" name="email" id="email" placeholder="Email address" required>
                     </li>
+                    <p class="error-display" id="error-message"></p>
                     <li>
                         <textarea name="" id="" cols="30" rows="10" maxlength="500" placeholder="Enter text here"
                             required></textarea>
                     </li>
-                    <button class="button-hover" type="submit">Get in touch</button>
-
+                    <button class="button-hover" type="submit">Get in touch</button>      
             </form>
         </div>
         <div class="social2">

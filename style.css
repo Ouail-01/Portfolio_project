@@ -620,6 +620,17 @@ body.active {
 }
 
 /* Form validation */
+.error-display {
+  margin: auto;
+  color: #FFFFFF;
+  font-size: small;
+  display: none;
+  width: 80%;
+  padding: 10px 10px;
+  text-align: center;
+  background-color: #FF6163;
+  border-radius: 8px;
+}
 
 /* For Desktop screen */
 

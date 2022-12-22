@@ -203,3 +203,9 @@ const dataStored = {
   name: '',
   email: '',
 };
+inputText.forEach((input) => {
+  input.addEventListener('input', () => {
+    dataStored[input.name] = input.value;
+    localStorage.setItem('everyData', JSON.stringify(dataStored));
+  });
+});

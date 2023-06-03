@@ -20,68 +20,69 @@ const popupWindow = document.querySelector('#popup-windows');
 const myProjects = [
 
   {
-    title: 'Uber Navigation',
-    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-    scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting
-    industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-    printer took a galley of type and scrambled it 1960s with the relea`,
-    featuredImage: 'img/card1.png',
-    technology: ['Html', 'Css', 'javaScript', 'Bootstrap', 'GitHub', 'Codepen'],
-    liveVersion: 'https://ouail-01.github.io/Portfolio_project/',
-    sourceCode: 'https://github.com/Ouail-01',
+    title: 'Football Academy website',
+    description: `Football Academy's website, where you can delve into the world of our exceptional staff and discover 
+    the extraordinary programs we offer. Our website is meticulously crafted using a blend of cutting-edge technologies 
+    such as HTML, CSS, and Javascript, ensuring an immersive and seamless browsing experience. Get ready to embark on a 
+    thrilling journey as you explore the diverse talents of our staff and the comprehensive range of programs we have 
+    meticulously designed for aspiring football enthusiasts like yourself.`,
+    featuredImage: 'img/FootballAcademy.png',
+    technology: ['Html', 'Css', 'javaScript', 'GitHub', 'Codepen', 'Terminal'],
+    liveVersion: 'https://ouail-01.github.io/Capstone_Project/',
+    sourceCode: 'https://github.com/Ouail-01/Capstone_Project',
   },
 
   {
-    title: 'Multi-Post Stories Gain+Glory',
-    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-    scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting
-    industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-    printer took a galley of type and scrambled it 1960s with the relea`,
-    featuredImage: 'img/card2.png',
-    technology: ['CodeKit', 'GitHub', 'javaScript', 'Bootstrap', 'Terminal', 'Codepen'],
-    liveVersion: 'https://ouail-01.github.io/Portfolio_project/',
-    sourceCode: 'https://github.com/Ouail-01',
+    title: 'Musify Application',
+    description: `Musify app is a platform that allows users to listen to music, create playlists, discover new music, 
+    and customize their listening experience. The app typically offers a vast library of songs from different genres, 
+    artists, and albums, and uses algorithms to curate personalized playlists and recommendations for users based on their 
+    listening habits. Some music apps may also offer additional features like lyrics, music videos, podcasts, and live 
+    streaming. The aim of a music app is to provide users with a seamless and enjoyable listening experience that caters 
+    to their music preferences.`,
+    featuredImage: 'img/MusifyApp.jpeg',
+    technology: ['CodeKit', 'GitHub', 'javaScript', 'React', 'Terminal', 'Codepen'],
+    liveVersion: 'https://ouail-01.github.io/Musify_React-Capstone/',
+    sourceCode: 'https://github.com/Ouail-01/Musify_React-Capstone',
   },
 
   {
-    title: 'Multi-Post Stories',
-    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-    scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting
-    industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-    printer took a galley of type and scrambled it 1960s with the relea`,
-    featuredImage: 'img/card3.png',
-    technology: ['CodeKit', 'GitHub', 'javascript', 'Bootstrap', 'Terminal', 'Codepen'],
-    liveVersion: 'https://ouail-01.github.io/Portfolio_project/',
-    sourceCode: 'https://github.com/Ouail-01',
+    title: 'Leaderboard',
+    description: `The Leaderboard website is a platform designed to showcase and track scores submitted by various players. 
+    It serves as a hub where users can view and compare their achievements with those of other participants. 
+    The website offers a user-friendly interface that presents the scores in a visually appealing and organized manner.`,
+    featuredImage: 'img/Leaderboard.png',
+    technology: ['React', 'GitHub', 'javascript', 'CSS', 'Terminal', 'Codepen'],
+    liveVersion: 'https://ouail-01.github.io/Leaderboard_Project/dist/',
+    sourceCode: 'https://github.com/Ouail-01/Leaderboard_Project',
   },
 
   {
-    title: 'Facebook 360',
-    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-    scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting
-    industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-    printer took a galley of type and scrambled it 1960s with the relea`,
-    featuredImage: 'img/card4.png',
-    technology: ['Html', 'Ruby on rails', 'javascript', 'Css', 'Terminal', 'Codepen'],
-    liveVersion: 'https://ouail-01.github.io/Portfolio_project/',
-    sourceCode: 'https://github.com/Ouail-01',
+    title: 'To-do List',
+    description: `To-do List is a tool that helps to organize your day. It simply lists the things that you need to do and
+     allows you to mark them as complete. You will build a simple website that allows for doing that, and you will do it 
+     using ES6 and Webpack!`,
+    featuredImage: 'img/TodoList.png',
+    technology: ['Html', 'React', 'javascript', 'Css', 'Terminal', 'Codepen'],
+    liveVersion: 'https://ouail-01.github.io/To-Do-List_Project/',
+    sourceCode: 'https://github.com/Ouail-01/To-Do-List_Project',
   },
 
   {
-    title: 'Keeping track of hundreds of components',
-    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-    scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting
-    industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-    printer took a galley of type and scrambled it 1960s with the relea`,
-    featuredImage: 'img/imgHolder2.png',
-    technology: ['CodeKit', 'GitHub', 'javascript', 'Bootstrap', 'Terminal', 'Codepen'],
-    liveVersion: 'https://ouail-01.github.io/Portfolio_project/',
-    sourceCode: 'https://github.com/Ouail-01',
+    title: 'Space Travelers Hub',
+    description: `Space Traveler's Hub Project is a Single Page App (SPA) implemeted using React and Redux that has 3 pages:
+    The Rockets section displays a list of all available SpaceX rockets. Users can book each rocket by clicking the reservation 
+    button or cancel the previously made booking.
+    The Missions section displays a list of current missions along with their brief description and participation status. 
+    There is also a button next to each mission that allows users to join the selected mission or leave the mission the 
+    user joined earlier.displayed
+    It uses an external API to SpaceX's API to gather data to be displayed on each page.
+    The Dragons section displays a list of all available SpaceX dragons. Users can book each dragon by clicking the 
+    reservation button or cancel the previously made booking.`,
+    featuredImage: 'img/SpaceHub.png',
+    technology: ['React', 'GitHub', 'javascript', 'CSS', 'Terminal', 'Codepen'],
+    liveVersion: 'https://space-travelers-hub-rw29.onrender.com/rockets',
+    sourceCode: 'https://github.com/Ouail-01/space-travelers-hub',
   },
 
   {

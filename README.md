@@ -1,10 +1,6 @@
 # Portfolio_Project
 
 <!-- TABLE OF CONTENTS -->
-
-Website about a football academy where you can explore our staff and our programms built with html CSS and Js.
-Football Academy's website, where you can delve into the world of our exceptional staff and discover the extraordinary programs we offer. Crafted with HTML, CSS, and JS.
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
